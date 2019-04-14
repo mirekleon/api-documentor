@@ -1,0 +1,15 @@
+{
+    "name": "api-documentor",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarkdownDocumentor\\": "src/MarkdownDocumentor"
+        }
+    }
+}
